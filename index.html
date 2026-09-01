@@ -6,11 +6,21 @@
     <title>Banda Orquesta La Revelación del Callao | 19 Años de Trayectoria</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts para Tipografía Elegante y Destacada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
     <!-- FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        .font-brand {
+            font-family: 'Cinzel', serif;
+        }
+        .font-sans-custom {
+            font-family: 'Montserrat', sans-serif;
+        }
         .gold-gradient {
-            background: linear-gradient(135deg, #d4af37 0%, #f3e5ab 50%, #aa7c11 100%);
+            background: linear-gradient(135deg, #f5d061 0%, #e6b800 50%, #997a00 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -19,35 +29,43 @@
         }
     </style>
 </head>
-<body class="bg-slate-950 text-gray-100 font-sans antialiased">
+<body class="bg-slate-950 text-gray-100 font-sans-custom antialiased">
 
     <!-- NAVBAR -->
-    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur border-b border-yellow-600/30">
-        <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-            <div class="flex items-center space-x-4">
-                <img src="logo.png" alt="Logo La Revelación del Callao" class="w-16 h-16 md:w-20 md:h-20 object-contain drop-shadow-[0_0_10px_rgba(212,175,55,0.4)]">
+    <header class="sticky top-0 z-50 bg-slate-950/95 backdrop-blur border-b border-yellow-600/30 py-4">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+            <!-- Contenedor del Logo y Nombre -->
+            <div class="flex items-center space-x-4 text-center md:text-left">
+                <div class="shrink-0 bg-slate-900 p-2 rounded-xl border border-yellow-500/20 shadow-md">
+                    <img src="logo.png" alt="Logo La Revelación del Callao" class="w-20 h-20 md:w-24 md:h-24 object-contain">
+                </div>
                 <div>
-                    <h1 class="text-lg md:text-2xl font-bold tracking-wider gold-gradient uppercase">Banda Orquesta La Revelación del Callao</h1>
-                    <p class="text-xs text-yellow-500/80 tracking-widest uppercase">19 Años de Tradición y Excelencia Musical</p>
+                    <h1 class="font-brand text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wider gold-gradient uppercase drop-shadow-md">
+                        Banda Orquesta La Revelación del Callao
+                    </h1>
+                    <p class="text-xs sm:text-sm text-yellow-500/90 tracking-widest uppercase font-semibold mt-1">
+                        19 Años de Tradición y Excelencia Musical
+                    </p>
                 </div>
             </div>
-            <a href="https://wa.me/51999999999?text=Hola,%20quisiera%20cotizar%20sus%20servicios%20musicales" target="_blank" class="hidden md:inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white font-bold py-2 px-5 rounded-full transition shadow-lg shadow-green-600/30">
-                <i class="fab font-bold fa-whatsapp text-xl"></i> Cotizar Ahora
+            <!-- Botón de Cotizar -->
+            <a href="https://wa.me/51999999999?text=Hola,%20quisiera%20cotizar%20sus%20servicios%20musicales" target="_blank" class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-6 rounded-full transition shadow-lg shadow-green-600/30 shrink-0">
+                <i class="fab fa-whatsapp text-2xl"></i> Cotizar Ahora
             </a>
         </div>
     </header>
 
-    <!-- HERO SECTION -->
-    <section class="relative py-20 bg-cover bg-center text-center" style="background-image: linear-gradient(to bottom, rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.95)), url('foto-grupo.jpg');">
+    <!-- HERO SECTION (PORTADA PRINCIPAL SEPARADA DEL LOGO) -->
+    <section class="relative py-24 bg-cover bg-center text-center" style="background-image: linear-gradient(to bottom, rgba(2, 6, 23, 0.85), rgba(2, 6, 23, 0.95)), url('foto-grupo.jpg');">
         <div class="max-w-4xl mx-auto px-4">
             <span class="inline-block bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-xs md:text-sm font-semibold px-4 py-1.5 rounded-full uppercase tracking-widest mb-6">
                 Música en Vivo con Categoría e Impacto
             </span>
-            <h2 class="text-3xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-                Eleva la Nivel de tu Evento con la Fuerza de nuestra <span class="gold-gradient">Música en Vivo</span>
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white leading-tight mb-6">
+                Eleva el Nivel de tu Evento con la Fuerza de nuestra <span class="gold-gradient">Música en Vivo</span>
             </h2>
             <p class="text-base md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Especialistas en Procesiones, Fiestas Patronales, Eventos Privados y Pasacalles. Mas de 19 años garantizando puntualidad, elegancia y el mejor marco musical.
+                Especialistas en Procesiones, Fiestas Patronales, Eventos Privados y Pasacalles. Más de 19 años garantizando puntualidad, elegancia y el mejor marco musical.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="https://wa.me/51999999999?text=Hola,%20deseo%20informacion%20de%20la%20Banda" target="_blank" class="inline-flex justify-center items-center gap-2 bg-gold-gradient text-slate-950 font-extrabold text-lg py-4 px-8 rounded-full hover:opacity-90 transition shadow-xl shadow-yellow-500/20">
@@ -64,7 +82,7 @@
     <section id="servicios" class="py-20 bg-slate-900">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-16">
-                <h3 class="text-3xl md:text-4xl font-bold gold-gradient">Formatos de Servicio</h3>
+                <h3 class="font-brand text-3xl md:text-4xl font-bold gold-gradient">Formatos de Servicio</h3>
                 <p class="text-gray-400 mt-2">Adaptamos nuestro elenco según las necesidades de tu celebración</p>
             </div>
 
@@ -112,12 +130,12 @@
         </div>
     </section>
 
-    <!-- NUEVA SECCIÓN: VIDEOS EN VIVO -->
+    <!-- SECCIÓN: VIDEOS EN VIVO -->
     <section class="py-20 bg-slate-950 border-t border-slate-900">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-12">
                 <span class="text-yellow-500 font-semibold uppercase tracking-wider text-sm">Demostración en Vivo</span>
-                <h3 class="text-3xl md:text-4xl font-bold text-white mt-1">Siente la Fuerza de Nuestra Música</h3>
+                <h3 class="font-brand text-3xl md:text-4xl font-bold text-white mt-1">Siente la Fuerza de Nuestra Música</h3>
                 <p class="text-gray-400 mt-2">Revisa nuestras presentaciones recientes en vivo</p>
             </div>
 
@@ -125,7 +143,6 @@
                 <!-- Video 1 -->
                 <div class="bg-slate-900 p-3 rounded-2xl border border-slate-800">
                     <div class="relative aspect-video rounded-xl overflow-hidden bg-black">
-                        <!-- Reemplaza el enlace del src por el de tus videos de YouTube (usar formato embed) -->
                         <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Presentación Banda Orquesta La Revelación del Callao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <h4 class="text-lg font-bold text-white mt-4 px-2">Presentación en Fiesta Patronal</h4>
@@ -135,7 +152,6 @@
                 <!-- Video 2 -->
                 <div class="bg-slate-900 p-3 rounded-2xl border border-slate-800">
                     <div class="relative aspect-video rounded-xl overflow-hidden bg-black">
-                        <!-- Reemplaza el enlace del src por el de tus videos de YouTube (usar formato embed) -->
                         <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Procesión y Marco Musical" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <h4 class="text-lg font-bold text-white mt-4 px-2">Acompañamiento Procesional</h4>
