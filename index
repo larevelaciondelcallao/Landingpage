@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banda Orquesta La Revelación del Callao</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            400: '#F59E0B',
+                            500: '#D97706',
+                            600: '#B45309',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-black">
+
+    <nav class="fixed top-0 w-full bg-slate-950/90 backdrop-blur-md border-b border-slate-800/80 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="logo.png" alt="Logo La Revelación del Callao" class="w-10 h-10 object-contain">
+                <span class="font-extrabold text-sm sm:text-base tracking-wider text-amber-400 uppercase">La Revelación del Callao</span>
+            </div>
+            <a href="https://wa.me/51991741746?text=Hola,%20deseo%20cotizar%20una%20fecha%20para%20un%20evento." target="_blank" class="bg-gradient-to-r from-gold-500 to-amber-600 hover:from-gold-600 hover:to-amber-700 text-slate-950 font-bold px-4 py-2 rounded-full text-xs sm:text-sm transition shadow-lg shadow-gold-500/20 flex items-center gap-2">
+                <i class="fa-brands fa-whatsapp text-base"></i> Cotizar Fecha
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden border-b border-slate-800/60">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-900/30 via-slate-950 to-slate-950 -z-10"></div>
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            
+            <img src="logo.png" alt="Logo La Revelación del Callao" class="w-32 h-32 sm:w-44 sm:h-44 mx-auto mb-6 object-contain drop-shadow-[0_0_25px_rgba(217,119,6,0.4)]">
+            
+            <span class="inline-flex items-center gap-2 bg-slate-900 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6">
+                <i class="fa-solid fa-award text-gold-400"></i> 19 Años de Trayectoria Musical
+            </span>
+            
+            <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight mb-6">
+                Potencia, Elegancia y Tradición para tus Grandes Eventos
+            </h1>
+            
+            <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+                Acompañamiento musical profesional para festividades patronales, procesiones religiosas, pasacalles y reuniones familiares en todo el Perú.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+                <a href="https://wa.me/51991741746?text=Hola,%20quisiera%20consultar%20disponibilidad%20de%20fecha." target="_blank" class="bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-4 rounded-full flex items-center justify-center gap-3 text-base shadow-xl shadow-green-600/30 transition">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i> Consultar Disponibilidad
+                </a>
+            </div>
+
+            <div class="relative rounded-3xl overflow-hidden border border-slate-700/80 shadow-2xl max-w-4xl mx-auto">
+                <img src="foto-grupo.jpg" alt="Banda Orquesta La Revelación del Callao" class="w-full h-auto object-cover">
+                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent p-6 text-left">
+                    <p class="text-gold-400 font-bold text-sm uppercase tracking-wider">Presentación Oficial</p>
+                    <p class="text-white text-xs sm:text-sm">Marco musical completo uniformado y listo para grandes escenarios.</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="formatos" class="py-24 max-w-6xl mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-black text-white mb-4">Nuestros Formatos Musicales</h2>
+            <p class="text-slate-400 max-w-xl mx-auto text-sm sm:text-base">Estructuras adaptadas exactamente al presupuesto y necesidad de tu compromiso.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <div class="bg-slate-900/60 border border-slate-800 rounded-3xl overflow-hidden hover:border-gold-500/40 transition duration-300 flex flex-col justify-between">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="foto-procesion.jpg" alt="Banda Procesional" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">1. Banda Procesional e Institucional</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Acompañamiento solemne para hermandades, mayordomías y ceremonias oficiales. Marcialidad, uniformidad y máximo respeto por la tradición litúrgica.
+                    </p>
+                    <div class="text-xs text-gold-400 font-semibold uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-check"></i> Marchas solemnes y litúrgicas
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 border border-slate-800 rounded-3xl overflow-hidden hover:border-gold-500/40 transition duration-300 flex flex-col justify-between">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="foto-noche.jpg" alt="Fiestas Patronales" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">2. Banda Orquesta (Fiestas Patronales)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Show bailable de alta energía con repertorio variado por regiones: huaynos, santiagos y tunantadas (Centro y Ancash), marineras norteñas, cajamarquinas y cumbias.
+                    </p>
+                    <div class="text-xs text-gold-400 font-semibold uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-check"></i> Repertorio integral por regiones
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 border border-slate-800 rounded-3xl overflow-hidden hover:border-gold-500/40 transition duration-300 flex flex-col justify-between">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="foto-chica.jpg" alt="Formato Íntimo" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">3. Formato Íntimo (8 Músicos)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Diseñado para cumpleaños, aniversarios y festejos familiares en casa. Toda la potencia y alegría de la banda optimizada para espacios reducidos.
+                    </p>
+                    <div class="text-xs text-gold-400 font-semibold uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-check"></i> Ideal para reuniones privadas
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 border border-slate-800 rounded-3xl overflow-hidden hover:border-gold-500/40 transition duration-300 flex flex-col justify-between">
+                <div class="h-48 bg-slate-800 flex items-center justify-center relative">
+                    <i class="fa-solid fa-users-line text-5xl text-gold-500/30"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2">4. Pasacalles y Caravanas (6 a 8 Músicos)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Acompañamiento itinerante de alta resistencia para comparsas, activaciones culturales, pasacalles institucionales y eventos políticos.
+                    </p>
+                    <div class="text-xs text-gold-400 font-semibold uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-check"></i> Formato ligero y dinámico
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-24 bg-gradient-to-t from-slate-900 via-slate-950 to-slate-950 border-t border-slate-800 text-center px-4">
+        <div class="max-w-3xl mx-auto">
+            <img src="logo.png" alt="Logo" class="w-24 h-24 mx-auto mb-6 object-contain">
+            <h2 class="text-3xl sm:text-5xl font-black text-white mb-6">¿Listo para asegurar la fecha de tu evento?</h2>
+            <p class="text-slate-400 text-base sm:text-lg mb-10 leading-relaxed">
+                Trabajamos con agenda programada. Cotiza con anticipación la disponibilidad de la banda directamente por WhatsApp.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me/51991741746?text=Hola,%20quisiera%20consultar%20disponibilidad%20de%20fecha." target="_blank" class="inline-flex items-center justify-center gap-3 bg-green-600 hover:bg-green-500 text-white font-bold px-8 py-4 rounded-full text-lg transition shadow-xl shadow-green-600/30">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i> Contacto: 991 741 746
+                </a>
+                <a href="https://wa.me/51922306959?text=Hola,%20quisiera%20consultar%20disponibilidad%20de%20fecha." target="_blank" class="inline-flex items-center justify-center gap-3 bg-slate-900 border border-slate-700 hover:bg-slate-800 text-white font-bold px-8 py-4 rounded-full text-lg transition">
+                    <i class="fa-brands fa-whatsapp text-2xl text-green-500"></i> Contacto: 922 306 959
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 bg-slate-950 border-t border-slate-900 text-center text-slate-600 text-xs">
+        Banda Orquesta La Revelación del Callao © Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
