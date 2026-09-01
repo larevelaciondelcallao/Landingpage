@@ -3,22 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banda Orquesta La Revelación del Callao | 19 Años de Trayectoria</title>
+    <title>Banda Orquesta La Revelación del Callao</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
     <!-- FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        .font-brand {
-            font-family: 'Cinzel', serif;
-        }
-        .font-sans-custom {
-            font-family: 'Montserrat', sans-serif;
-        }
         .gold-gradient {
             background: linear-gradient(135deg, #f5d061 0%, #e6b800 50%, #997a00 100%);
             -webkit-background-clip: text;
@@ -29,51 +19,51 @@
         }
     </style>
 </head>
-<body class="bg-slate-950 text-gray-100 font-sans-custom antialiased">
+<body class="bg-slate-950 text-gray-100 font-sans antialiased">
 
-    <!-- CABECERA PRINCIPAL: LOGOTIPO GIGANTE -->
-    <header class="bg-slate-950 border-b border-yellow-600/30 py-8 text-center">
-        <div class="max-w-4xl mx-auto px-4 flex flex-col items-center">
-            <!-- LOGO PRINCIPAL DESTACADO -->
-            <img src="logo.png" alt="Logo La Revelación del Callao" class="w-40 h-40 md:w-56 md:h-56 object-contain drop-shadow-[0_0_25px_rgba(212,175,55,0.5)] mb-4">
-            <h1 class="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wider gold-gradient uppercase drop-shadow-md">
-                Banda Orquesta La Revelación del Callao
-            </h1>
-            <p class="text-xs sm:text-sm text-yellow-500/90 tracking-widest uppercase font-semibold mt-2">
+    <!-- 1. CABECERA: LOGO GIGANTE Y SUBTÍTULO DE TRAYECTORIA -->
+    <header class="bg-slate-950 border-b border-yellow-600/30 py-6 text-center">
+        <div class="max-w-xl mx-auto px-4 flex flex-col justify-center items-center">
+            <img src="logo.png" alt="Logo La Revelación del Callao" class="w-full max-w-sm h-auto object-contain drop-shadow-[0_0_20px_rgba(212,175,55,0.4)] mb-3">
+            <p class="text-xs sm:text-sm text-yellow-500/90 tracking-widest uppercase font-semibold">
                 19 Años de Tradición y Excelencia Musical
             </p>
         </div>
     </header>
 
-    <!-- PORTADA AJUSTADA (MÁS COMPACTA Y PROPORCIONADA) -->
-    <section class="relative py-12 md:py-16 bg-cover bg-center text-center" style="background-image: linear-gradient(to bottom, rgba(2, 6, 23, 0.85), rgba(2, 6, 23, 0.95)), url('foto-grupo.jpg');">
+    <!-- 2. FOTO PRINCIPAL INDEPENDIENTE Y BIEN PROPORCIONADA -->
+    <section class="bg-slate-950">
+        <div class="max-w-5xl mx-auto px-4 pt-6">
+            <img src="foto-grupo.jpg" alt="Banda Orquesta La Revelación del Callao" class="w-full h-auto max-h-[450px] object-cover rounded-2xl border border-yellow-600/30 shadow-2xl">
+        </div>
+    </section>
+
+    <!-- 3. BLOQUE DE TEXTO Y BOTÓN DE WHATSAPP -->
+    <section class="py-10 bg-slate-950 text-center">
         <div class="max-w-3xl mx-auto px-4">
-            <span class="inline-block bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-xs md:text-sm font-semibold px-4 py-1 rounded-full uppercase tracking-widest mb-4">
+            <span class="inline-block bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-xs md:text-sm font-semibold px-4 py-1.5 rounded-full uppercase tracking-widest mb-4">
                 Música en Vivo con Categoría e Impacto
             </span>
             <h2 class="text-2xl md:text-4xl font-extrabold text-white leading-tight mb-4">
                 Eleva el Nivel de tu Evento con la Fuerza de nuestra <span class="gold-gradient">Música en Vivo</span>
             </h2>
-            <p class="text-sm md:text-lg text-gray-300 mb-6 max-w-xl mx-auto">
+            <p class="text-sm md:text-base text-gray-300 mb-6 max-w-xl mx-auto">
                 Especialistas en Procesiones, Fiestas Patronales, Eventos Privados y Pasacalles. Garantizamos puntualidad y elegancia.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://wa.me/51999999999?text=Hola,%20deseo%20informacion%20de%20la%20Banda" target="_blank" class="inline-flex justify-center items-center gap-2 bg-gold-gradient text-slate-950 font-extrabold text-base py-3.5 px-7 rounded-full hover:opacity-90 transition shadow-xl shadow-yellow-500/20">
-                    <i class="fab fa-whatsapp text-xl"></i> Cotizar por WhatsApp
-                </a>
-                <a href="#servicios" class="inline-flex justify-center items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white font-semibold text-base py-3.5 px-7 rounded-full border border-slate-700 transition">
-                    Ver Formatos Musicales
+                <a href="https://wa.me/51999999999?text=Hola,%20deseo%20informacion%20de%20la%20Banda" target="_blank" class="inline-flex justify-center items-center gap-2 bg-gold-gradient text-slate-950 font-extrabold text-base py-3.5 px-8 rounded-full hover:opacity-90 transition shadow-xl shadow-yellow-500/20">
+                    <i class="fab fa-whatsapp text-2xl"></i> Cotizar por WhatsApp
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- FORMATOS DE SERVICIO CON VIDEO INDIVIDUAL -->
-    <section id="servicios" class="py-16 bg-slate-900">
+    <!-- 4. FORMATOS DE SERVICIO CON VIDEO INDIVIDUAL -->
+    <section id="servicios" class="py-16 bg-slate-900 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-12">
-                <h3 class="font-brand text-3xl md:text-4xl font-bold gold-gradient">Formatos de Servicio</h3>
-                <p class="text-gray-400 mt-2 text-sm md:text-base">Revisa nuestros formatos e impertantes demostraciones en vivo de cada uno</p>
+                <h3 class="text-3xl md:text-4xl font-bold gold-gradient uppercase tracking-wide">Formatos de Servicio</h3>
+                <p class="text-gray-400 mt-2 text-sm md:text-base">Revisa nuestros formatos y sus demostraciones en vivo</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -86,7 +76,6 @@
                             <h4 class="text-lg font-bold text-white mb-2">1. Procesional / Institucional</h4>
                             <p class="text-xs text-gray-400 mb-4">Marco musical solemne para marchas de fe, procesiones y actos protocolares.</p>
                             
-                            <!-- Video embebido del formato 1 -->
                             <div class="relative aspect-video rounded-xl overflow-hidden bg-black mb-4 border border-slate-800">
                                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video Formato Procesional" frameborder="0" allowfullscreen></iframe>
                             </div>
@@ -103,9 +92,8 @@
                         <img src="foto-noche.jpg" alt="Bailable y Patronal" class="w-full h-44 object-cover">
                         <div class="p-5">
                             <h4 class="text-lg font-bold text-white mb-2">2. Bailable / Patronal</h4>
-                            <p class="text-xs text-gray-400 mb-4">Repertorio variado (cumbias, huaynos, marinera) para asegurar fiesta total en celebraciones.</p>
+                            <p class="text-xs text-gray-400 mb-4">Repertorio variado (cumbias, huaynos, marinera) para asegurar fiesta total.</p>
                             
-                            <!-- Video embebido del formato 2 -->
                             <div class="relative aspect-video rounded-xl overflow-hidden bg-black mb-4 border border-slate-800">
                                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video Formato Bailable" frameborder="0" allowfullscreen></iframe>
                             </div>
@@ -122,9 +110,8 @@
                         <img src="foto-chica.jpg" alt="Formato Íntimo" class="w-full h-44 object-cover">
                         <div class="p-5">
                             <h4 class="text-lg font-bold text-white mb-2">3. Formato Íntimo (8 Músicos)</h4>
-                            <p class="text-xs text-gray-400 mb-4">Ideal para reuniones familiares, cumpleaños o locales pequeños. Potencia en versión compacta.</p>
+                            <p class="text-xs text-gray-400 mb-4">Ideal para reuniones familiares, cumpleaños o locales pequeños.</p>
                             
-                            <!-- Video embebido del formato 3 -->
                             <div class="relative aspect-video rounded-xl overflow-hidden bg-black mb-4 border border-slate-800">
                                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video Formato Intimo" frameborder="0" allowfullscreen></iframe>
                             </div>
@@ -141,9 +128,8 @@
                         <img src="foto-pasacalle.jpg" alt="Pasacalles y Caravanas" class="w-full h-44 object-cover">
                         <div class="p-5">
                             <h4 class="text-lg font-bold text-white mb-2">4. Pasacalles / Itinerante</h4>
-                            <p class="text-xs text-gray-400 mb-4">Elenco móvil (6 a 8 músicos) para acompañar alegorías, marchas festivas y animaciones itinerantes.</p>
+                            <p class="text-xs text-gray-400 mb-4">Elenco móvil (6 a 8 músicos) para acompañar alegorías y marchas festivas.</p>
                             
-                            <!-- Video embebido del formato 4 -->
                             <div class="relative aspect-video rounded-xl overflow-hidden bg-black mb-4 border border-slate-800">
                                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video Formato Pasacalles" frameborder="0" allowfullscreen></iframe>
                             </div>
