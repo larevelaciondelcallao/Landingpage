@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banda Orquesta La Revelación del Callao</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         .gold-gradient {
@@ -19,6 +21,7 @@
 </head>
 <body class="bg-slate-950 text-gray-100 font-sans antialiased">
 
+    <!-- 1. CABECERA: LOGO GIGANTE Y SUBTÍTULO DE TRAYECTORIA -->
     <header class="bg-slate-950 border-b border-yellow-600/30 py-6 text-center">
         <div class="max-w-xl mx-auto px-4 flex flex-col justify-center items-center">
             <img src="logo.png" alt="Logo La Revelación del Callao" class="w-full max-w-sm h-auto object-contain drop-shadow-[0_0_20px_rgba(212,175,55,0.4)] mb-3">
@@ -28,12 +31,14 @@
         </div>
     </header>
 
+    <!-- 2. FOTO PRINCIPAL INDEPENDIENTE -->
     <section class="bg-slate-950">
         <div class="max-w-5xl mx-auto px-4 pt-6">
             <img src="foto-grupo.jpg" alt="Banda Orquesta La Revelación del Callao" class="w-full h-auto max-h-[450px] object-cover rounded-2xl border border-yellow-600/30 shadow-2xl">
         </div>
     </section>
 
+    <!-- 3. BLOQUE DE TEXTO Y BOTÓN DE WHATSAPP -->
     <section class="py-10 bg-slate-950 text-center">
         <div class="max-w-3xl mx-auto px-4">
             <span class="inline-block bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-xs md:text-sm font-semibold px-4 py-1.5 rounded-full uppercase tracking-widest mb-4">
@@ -46,22 +51,24 @@
                 Especialistas en Procesiones, Fiestas Patronales, Eventos Privados y Pasacalles. Garantizamos puntualidad y elegancia.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://wa.me/51991741746?text=Hola,%20deseo%20informacion%20de%20la%20Banda" target="_blank" class="inline-flex justify-center items-center gap-2 bg-gold-gradient text-slate-950 font-extrabold text-base py-3.5 px-8 rounded-full hover:opacity-90 transition shadow-xl shadow-yellow-500/20">
-                    <i class="fab fa-whatsapp text-2xl"></i> Cotizar por WhatsApp
+                <a href="https://wa.me/51991741746?text=Hola,%20deseo%20consultar%20disponibilidad.%0A%F0%9F%93%85%20Fecha:%20%0A%E2%8F%B0%20Hora%20de%20inicio:%20%0A%E2%8F%B3%20Cantidad%20de%20horas:%20%0A%F0%9F%93%8D%20Distrito%20/%20Lugar:%20" target="_blank" class="inline-flex justify-center items-center gap-2 bg-gold-gradient text-slate-950 font-extrabold text-base py-3.5 px-8 rounded-full hover:opacity-90 transition shadow-xl shadow-yellow-500/20">
+                    <i class="fab fa-whatsapp text-2xl"></i> Consultar Disponibilidad
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- 4. FORMATOS DE SERVICIO -->
     <section id="servicios" class="py-16 bg-slate-900 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-12">
                 <h3 class="text-3xl md:text-4xl font-bold gold-gradient uppercase tracking-wide">Formatos de Servicio</h3>
-                <p class="text-gray-400 mt-2 text-sm md:text-base">Revisa nuestros formatos y sus demostraciones en vivo</p>
+                <p class="text-gray-400 mt-2 text-sm md:text-base">Haz clic en los detalles para ver la inversión e integrantes de cada formato</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 
+                <!-- Formato 1: Procesional -->
                 <div class="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-yellow-600/50 transition flex flex-col justify-between">
                     <div>
                         <img src="foto-procesion.jpg?v=2" alt="Procesional e Institucional" class="w-full h-44 object-cover">
@@ -72,13 +79,27 @@
                             <div class="relative aspect-video rounded-xl overflow-hidden bg-black mb-4 border border-slate-800">
                                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/C3JmC4HfGcs" title="Video Formato Procesional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
+
+                            <details class="group mt-2 bg-slate-900 border border-slate-800 rounded-lg p-3 text-xs text-gray-300">
+                                <summary class="cursor-pointer font-bold text-yellow-400 flex justify-between items-center">
+                                    <span>Ver precios y condiciones</span>
+                                    <i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i>
+                                </summary>
+                                <ul class="mt-3 space-y-1.5 border-t border-slate-800 pt-2 text-gray-300">
+                                    <li>• <strong>Inversión:</strong> Desde S/ 300 la hora</li>
+                                    <li>• <strong>Elenco:</strong> 10 músicos en escena</li>
+                                    <li>• <strong>Contratación mínima:</strong> 4 horas</li>
+                                    <li>• <strong>Movilidad:</strong> A tratar según zona</li>
+                                </ul>
+                            </details>
                         </div>
                     </div>
                     <div class="p-5 pt-0">
-                        <a href="https://wa.me/51991741746?text=Cotizar%20Formato%20Procesional" target="_blank" class="block text-center bg-slate-800 hover:bg-yellow-600 hover:text-slate-950 text-yellow-400 font-semibold py-2.5 rounded-lg text-sm transition">Cotizar Formato</a>
+                        <a href="https://wa.me/51991741746?text=Hola,%20deseo%20consultar%20disponibilidad%20para%20el%20Formato%20Procesional.%0A%F0%9F%93%85%20Fecha:%20%0A%E2%8F%B0%20Hora%20de%20inicio:%20%0A%E2%8F%B3%20Cantidad%20de%20horas:%20%0A%F0%9F%93%8D%20Distrito%20/%20Lugar:%20" target="_blank" class="block text-center bg-slate-800 hover:bg-yellow-600 hover:text-slate-950 text-yellow-400 font-semibold py-2.5 rounded-lg text-sm transition">Reservar Formato</a>
                     </div>
                 </div>
 
+                <!-- Formato 2: Bailable -->
                 <div class="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-yellow-600/50 transition flex flex-col justify-between">
                     <div>
                         <img src="foto-noche.jpg" alt="Bailable y Patronal" class="w-full h-44 object-cover">
@@ -89,13 +110,27 @@
                             <div class="relative aspect-video rounded-xl overflow-hidden bg-black mb-4 border border-slate-800">
                                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/uCzFOQwA0gw" title="Video Formato Bailable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
+
+                            <details class="group mt-2 bg-slate-900 border border-slate-800 rounded-lg p-3 text-xs text-gray-300">
+                                <summary class="cursor-pointer font-bold text-yellow-400 flex justify-between items-center">
+                                    <span>Ver precios y condiciones</span>
+                                    <i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i>
+                                </summary>
+                                <ul class="mt-3 space-y-1.5 border-t border-slate-800 pt-2 text-gray-300">
+                                    <li>• <strong>Inversión:</strong> Desde S/ 400 la hora</li>
+                                    <li>• <strong>Elenco:</strong> 12 músicos en escena</li>
+                                    <li>• <strong>Contratación mínima:</strong> 6 horas</li>
+                                    <li>• <strong>Movilidad:</strong> A tratar según zona</li>
+                                </ul>
+                            </details>
                         </div>
                     </div>
                     <div class="p-5 pt-0">
-                        <a href="https://wa.me/51991741746?text=Cotizar%20Formato%20Bailable" target="_blank" class="block text-center bg-slate-800 hover:bg-yellow-600 hover:text-slate-950 text-yellow-400 font-semibold py-2.5 rounded-lg text-sm transition">Cotizar Formato</a>
+                        <a href="https://wa.me/51991741746?text=Hola,%20deseo%20consultar%20disponibilidad%20para%20el%20Formato%20Bailable.%0A%F0%9F%93%85%20Fecha:%20%0A%E2%8F%B0%20Hora%20de%20inicio:%20%0A%E2%8F%B3%20Cantidad%20de%20horas:%20%0A%F0%9F%93%8D%20Distrito%20/%20Lugar:%20" target="_blank" class="block text-center bg-slate-800 hover:bg-yellow-600 hover:text-slate-950 text-yellow-400 font-semibold py-2.5 rounded-lg text-sm transition">Reservar Formato</a>
                     </div>
                 </div>
 
+                <!-- Formato 3: Íntimo -->
                 <div class="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-yellow-600/50 transition flex flex-col justify-between">
                     <div>
                         <img src="foto-chica.jpg" alt="Formato Íntimo" class="w-full h-44 object-cover">
@@ -106,27 +141,54 @@
                             <div class="relative aspect-video rounded-xl overflow-hidden bg-black mb-4 border border-slate-800">
                                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/k6sPqCctrkw" title="Video Formato Intimo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
+
+                            <details class="group mt-2 bg-slate-900 border border-slate-800 rounded-lg p-3 text-xs text-gray-300">
+                                <summary class="cursor-pointer font-bold text-yellow-400 flex justify-between items-center">
+                                    <span>Ver precios y condiciones</span>
+                                    <i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i>
+                                </summary>
+                                <ul class="mt-3 space-y-1.5 border-t border-slate-800 pt-2 text-gray-300">
+                                    <li>• <strong>Inversión:</strong> Desde S/ 350 la hora</li>
+                                    <li>• <strong>Elenco:</strong> 8 músicos en escena</li>
+                                    <li>• <strong>Contratación mínima:</strong> 2 horas</li>
+                                    <li>• <strong>Movilidad:</strong> A tratar según zona</li>
+                                </ul>
+                            </details>
                         </div>
                     </div>
                     <div class="p-5 pt-0">
-                        <a href="https://wa.me/51991741746?text=Cotizar%20Formato%20Intimo" target="_blank" class="block text-center bg-slate-800 hover:bg-yellow-600 hover:text-slate-950 text-yellow-400 font-semibold py-2.5 rounded-lg text-sm transition">Cotizar Formato</a>
+                        <a href="https://wa.me/51991741746?text=Hola,%20deseo%20consultar%20disponibilidad%20para%20el%20Formato%20Intimo.%0A%F0%9F%93%85%20Fecha:%20%0A%E2%8F%B0%20Hora%20de%20inicio:%20%0A%E2%8F%B3%20Cantidad%20de%20horas:%20%0A%F0%9F%93%8D%20Distrito%20/%20Lugar:%20" target="_blank" class="block text-center bg-slate-800 hover:bg-yellow-600 hover:text-slate-950 text-yellow-400 font-semibold py-2.5 rounded-lg text-sm transition">Reservar Formato</a>
                     </div>
                 </div>
 
+                <!-- Formato 4: Pasacalles -->
                 <div class="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-yellow-600/50 transition flex flex-col justify-between">
                     <div>
                         <img src="foto-pasacalle.jpg?v=2" alt="Pasacalles y Caravanas" class="w-full h-44 object-cover">
                         <div class="p-5">
                             <h4 class="text-lg font-bold text-white mb-2">4. Pasacalles / Itinerante</h4>
-                            <p class="text-xs text-gray-400 mb-4">Elenco móvil (6 a 8 músicos) para acompañar alegorías y marchas festivas.</p>
+                            <p class="text-xs text-gray-400 mb-4">Elenco móvil para acompañar alegorías, caravanas y marchas festivas.</p>
                             
                             <div class="relative aspect-video rounded-xl overflow-hidden bg-black mb-4 border border-slate-800">
                                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/QycC9xfkImU" title="Video Formato Pasacalles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
+
+                            <details class="group mt-2 bg-slate-900 border border-slate-800 rounded-lg p-3 text-xs text-gray-300">
+                                <summary class="cursor-pointer font-bold text-yellow-400 flex justify-between items-center">
+                                    <span>Ver precios y condiciones</span>
+                                    <i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i>
+                                </summary>
+                                <ul class="mt-3 space-y-1.5 border-t border-slate-800 pt-2 text-gray-300">
+                                    <li>• <strong>Inversión:</strong> Desde S/ 350 la hora</li>
+                                    <li>• <strong>Elenco:</strong> 8 músicos en escena</li>
+                                    <li>• <strong>Contratación mínima:</strong> 2 horas</li>
+                                    <li>• <strong>Movilidad:</strong> A tratar según zona</li>
+                                </ul>
+                            </details>
                         </div>
                     </div>
                     <div class="p-5 pt-0">
-                        <a href="https://wa.me/51991741746?text=Cotizar%20Formato%20Pasacalles" target="_blank" class="block text-center bg-slate-800 hover:bg-yellow-600 hover:text-slate-950 text-yellow-400 font-semibold py-2.5 rounded-lg text-sm transition">Cotizar Formato</a>
+                        <a href="https://wa.me/51991741746?text=Hola,%20deseo%20consultar%20disponibilidad%20para%20el%20Formato%20Pasacalles.%0A%F0%9F%93%85%20Fecha:%20%0A%E2%8F%B0%20Hora%20de%20inicio:%20%0A%E2%8F%B3%20Cantidad%20de%20horas:%20%0A%F0%9F%93%8D%20Distrito%20/%20Lugar:%20" target="_blank" class="block text-center bg-slate-800 hover:bg-yellow-600 hover:text-slate-950 text-yellow-400 font-semibold py-2.5 rounded-lg text-sm transition">Reservar Formato</a>
                     </div>
                 </div>
 
@@ -134,6 +196,90 @@
         </div>
     </section>
 
+    <!-- 5. GALERÍA DESPLEGABLE (FOTOS Y VIDEOS EXTRA) -->
+    <section class="py-12 bg-slate-950 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <details class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
+                <summary class="cursor-pointer font-bold text-lg md:text-xl text-yellow-400 flex justify-between items-center select-none">
+                    <span class="flex items-center gap-2">
+                        <i class="fas fa-[#f5d061] fa-images text-yellow-500"></i> Ver Galería Completa (Fotos y Uniformes)
+                    </span>
+                    <span class="bg-yellow-500/10 text-yellow-400 text-xs px-3 py-1 rounded-full border border-yellow-500/30 group-open:hidden">Abrir Galería</span>
+                </summary>
+                
+                <div class="mt-8 border-t border-slate-800 pt-6">
+                    <h4 class="text-base font-bold text-white mb-4">Fotos de Presentaciones y Uniformes:</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                        <img src="galeria-1.jpg" alt="Uniforme 1" class="w-full h-36 object-cover rounded-xl border border-slate-800 hover:scale-105 transition">
+                        <img src="galeria-2.jpg" alt="Uniforme 2" class="w-full h-36 object-cover rounded-xl border border-slate-800 hover:scale-105 transition">
+                        <img src="galeria-3.jpg" alt="Uniforme 3" class="w-full h-36 object-cover rounded-xl border border-slate-800 hover:scale-105 transition">
+                        <img src="galeria-4.jpg" alt="Uniforme 4" class="w-full h-36 object-cover rounded-xl border border-slate-800 hover:scale-105 transition">
+                        <img src="galeria-5.jpg" alt="Uniforme 5" class="w-full h-36 object-cover rounded-xl border border-slate-800 hover:scale-105 transition">
+                        <img src="galeria-6.jpg" alt="Uniforme 6" class="w-full h-36 object-cover rounded-xl border border-slate-800 hover:scale-105 transition">
+                        <img src="galeria-7.jpg" alt="Uniforme 7" class="w-full h-36 object-cover rounded-xl border border-slate-800 hover:scale-105 transition">
+                        <img src="galeria-8.jpg" alt="Uniforme 8" class="w-full h-36 object-cover rounded-xl border border-slate-800 hover:scale-105 transition">
+                    </div>
+
+                    <h4 class="text-base font-bold text-white mb-4">Demostraciones en Vivo Adicionales:</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        <div class="relative aspect-video rounded-xl overflow-hidden bg-black border border-slate-800">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/C3JmC4HfGcs" title="Video Extra 1" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="relative aspect-video rounded-xl overflow-hidden bg-black border border-slate-800">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/uCzFOQwA0gw" title="Video Extra 2" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="relative aspect-video rounded-xl overflow-hidden bg-black border border-slate-800">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/k6sPqCctrkw" title="Video Extra 3" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="relative aspect-video rounded-xl overflow-hidden bg-black border border-slate-800">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/QycC9xfkImU" title="Video Extra 4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="relative aspect-video rounded-xl overflow-hidden bg-black border border-slate-800">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/C3JmC4HfGcs" title="Video Extra 5" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </section>
+
+    <!-- 6. PREGUNTAS FRECUENTES (FAQ) -->
+    <section class="py-12 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="text-2xl md:text-3xl font-bold text-center gold-gradient mb-8 uppercase">Preguntas Frecuentes</h3>
+            
+            <div class="space-y-4">
+                <details class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+                    <summary class="cursor-pointer font-semibold text-white flex justify-between items-center text-sm md:text-base">
+                        ¿Cómo aseguro la separación de la fecha para mi evento?
+                    </summary>
+                    <p class="mt-3 text-xs md:text-sm text-gray-400 border-t border-slate-800 pt-3">
+                        La fecha se separa formalmente mediante un adelanto del 50% del costo total. El saldo restante se cancela el mismo día de la presentación al inicio del evento.
+                    </p>
+                </details>
+
+                <details class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+                    <summary class="cursor-pointer font-semibold text-white flex justify-between items-center text-sm md:text-base">
+                        ¿Qué métodos de pago tienen disponibles?
+                    </summary>
+                    <p class="mt-3 text-xs md:text-sm text-gray-400 border-t border-slate-800 pt-3">
+                        Aceptamos Yape, Plin, transferencias bancarias directas (BCP, Interbank, BBVA) y pago en efectivo.
+                    </p>
+                </details>
+
+                <details class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+                    <summary class="cursor-pointer font-semibold text-white flex justify-between items-center text-sm md:text-base">
+                        ¿Cómo se gestiona el costo del transporte / movilidad?
+                    </summary>
+                    <p class="mt-3 text-xs md:text-sm text-gray-400 border-t border-slate-800 pt-3">
+                        El costo de movilidad se acuerda previamente según el distrito y la distancia exacta del lugar del evento para garantizar la llegada puntual del elenco completo.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
     <footer class="bg-slate-950 border-t border-slate-900 py-8 text-center text-sm text-gray-500">
         <div class="max-w-7xl mx-auto px-4">
             <p class="font-bold text-gray-300">Banda Orquesta La Revelación del Callao</p>
